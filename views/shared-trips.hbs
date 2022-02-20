@@ -6,11 +6,7 @@
             exploration begin!</p>
     </header>
     <div class="row text-center">
-        <!-- If there are shared trips in the database display each of them -->
 
-        <!-- trip #1 -->
-
-        <!-- trip #2 -->
         {{#if trips}}
 
         {{#each trips}}
@@ -18,7 +14,6 @@
         {{> tripPreview}}
 
         {{/each}}
-        <!-- If there are no shared trips in the database -->
 
         {{else}}
         <div class="no-trips">
